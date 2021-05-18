@@ -1,8 +1,10 @@
 # matomo-h2o
-Mruby script to run Matomo web analytics under the H2O webserver
+Mruby script to run [Matomo](https://matomo.org/) web analytics under the H2O webserver
 
-## Download mruby scrip file
-Download ``matomo-h2o.rb`` to your server.
+This script is mostly an adaptation of the relevant sections of [matomo-nginx](https://github.com/matomo-org/matomo-nginx), the Nginx configuration for running Matomo.
+
+## Download mruby script file
+Download ``matomo-h2o.rb`` to your server, e.g. using ``wget https://raw.githubusercontent.com/utrenkner/matomo-h2o/main/matomo-h2o.rb``.
 
 ## Configuring H2O
 This assumes you already have a fully configured [H2O](https://github.com/h2o/h2o) webserver running.
